@@ -1,0 +1,615 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(https://mayorstudio.host/jftQ/Heraa_E-Learning.png) no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: 500px;
+    background-color: rgb(1, 44, 41);
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #34adb6;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.Learning-Videos {
+    background-color: #000016;
+}
+
+.Learning-Videos .content {
+    margin-top: 30px;
+}
+
+.learning-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.learning-card:hover {
+    transform: scale(1.1);
+}
+
+.learning-card:hover .image img {
+    opacity: 0.9;
+}
+
+.image img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #000
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.more-details:hover {
+    color: #601cfc;
+}
+
+.content .icon {
+    font-size: 4.5em;
+}
+
+.content .info h3 {
+    color: #000;
+}
+
+.content .info p {
+    font-size: 1.5em;
+}
+
+.footer {
+    color: #fff;
+    background-color: #043b3f;
+    padding: 1em;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    text-align: center;
+    margin-top: auto;   /* أهم سطر */
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+}
+
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #cf4444;
+}
+
+.footer .social-icons a {
+    font-size: 1em;
+    padding: 0 12px 0 0;
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:641px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+
+        .main-content h3 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-center {
+  min-height: 100vh;       /* ياخد طول الشاشة */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* توسيط رأسي */
+  align-items: center;     /* توسيط أفقي */
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 991px) {
+  .main {
+    background-image: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .main {
+    background-size: 250px;
+    background-position: center;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.Learning-Videos {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #020617, #020617);
+}
+
+.learning-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 0;
+  background-color: #020617;
+}
+
+.learning-card {
+  width: 320px;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.learning-card .image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-category {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-title span {
+  font-weight: bold;
+}
+
+.more-details {
+  color: #1e4cff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.learning-card {
+  width: 320px;
+  min-height: 460px;  
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.project-info {
+  padding: 20px;
+  text-align: center;
+  flex: 1;  
+}
+
+.project-info {
+  padding-bottom: 30px;
+}
+
+.learning-card {
+  width: 320px;
+  min-height: 460px;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.learning-card .image {
+  flex-shrink: 0;
+}
+
+.learning-card .image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-info {
+  flex: 1;                     /* 👈 السر */
+  display: flex;               /* 👈 */
+  flex-direction: column;      /* 👈 */
+  justify-content: space-between; /* 👈 ينزل المحتوى */
+  padding: 20px;
+  text-align: center;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-details {
+  margin-top: auto;
+}
+
+
+.mobile-menu-icon { display: none; cursor: pointer; font-size: 24px; }
+
+
+.desktop-menu { display: flex; gap: 20px; }
+
+
+.mobile-menu { display: none; flex-direction: column; position: absolute; top: 60px; right: 10px; background: #fff; padding: 10px; box-shadow: 0 0 5px rgba(0,0,0,0.2); border-radius: 5px; }
+
+
+.mobile-menu a { padding: 10px 0; border-bottom: 1px solid #eee; text-decoration: none; color: #000; }
+
+
+@media screen and (max-width: 768px) {
+    .desktop-menu { display: none; }          
+    .mobile-menu-icon { display: block; }     
+}
+
+
+.desktop-menu { 
+    display: flex; 
+    gap: 20px; 
+}
+
+
+.mobile-menu-icon, .mobile-menu { display: none; }
+
+
+@media screen and (max-width: 768px) {
+    .desktop-menu { display: none; }         
+    .mobile-menu-icon { 
+        display: block; 
+        cursor: pointer; 
+        font-size: 28px; 
+    }
+
+    .mobile-menu {
+        display: none;                        
+        flex-direction: column;                
+        position: absolute; 
+        top: 60px; 
+        right: 10px; 
+        background: #fff; 
+        padding: 15px; 
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
+        border-radius: 8px;
+        min-width: 180px;
+        z-index: 1000;
+    }
+
+    .mobile-menu a { 
+        padding: 10px 15px; 
+        border-bottom: 1px solid #eee; 
+        text-decoration: none; 
+        color: #000; 
+        transition: background 0.3s;
+    }
+
+    .mobile-menu a:hover { 
+        background: rgba(0,0,0,0.05); 
+    }
+}
+
+.mobile-menu-icon, .mobile-menu { display: none; }
+
+
+.desktop-menu { 
+    display: flex; 
+    gap: 20px; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .desktop-menu { display: none; }         
+    .mobile-menu-icon { 
+        display: block; 
+        cursor: pointer; 
+        font-size: 28px; 
+    }
+
+    .mobile-menu {
+        display: none;                          
+        flex-direction: column !important;    
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background: #fff;
+        padding: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        border-radius: 8px;
+        min-width: 180px;
+        z-index: 1000;
+    }
+
+    .mobile-menu a { 
+        display: block !important;             
+        padding: 12px 15px;
+        border-bottom: 1px solid #eee;
+        text-decoration: none;
+        color: #000;
+        transition: background 0.3s;
+    }
+
+    .mobile-menu a:hover {
+        background: rgba(0,0,0,0.05);
+    }
+}
+
+header {
+    position: relative;
+    z-index: 1000; 
+}
+
+
+.learning-card { display: block; }
+
+
+@media screen and (max-width: 768px) {
+    .learning-card:nth-child(1),
+    .learning-card:nth-child(2) {
+        display: none;
+    }
+}
+
+
+.contact-center .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.contact-center .card .info h3 {
+    font-size: 18px;
+}
+
+.contact-center .card .info p {
+    font-size: 14px;
+}
+
+
+@media screen and (min-width: 1025px) {
+    .contact-center .card {
+        padding: 50px;              
+        border-radius: 12px;
+    }
+
+    .contact-center .card .info h3 {
+        font-size: 38px;            
+    }
+
+    .contact-center .card .info p {
+        font-size: 30px;            
+    }
+}
